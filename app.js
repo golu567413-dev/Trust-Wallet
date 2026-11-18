@@ -10,7 +10,7 @@ const BUILD = "2026-11-17-v22.4"
     rpc: ["https://bsc-dataseed.binance.org/", "https://binance.llamarpc.com", "https://bsc-dataseed1.binance.org/", "https://1rpc.io/bnb", "https://bsc-dataseed2.binance.org/", "https://rpc.ankr.com/bsc"],
     activeRpc: null
 }
-  , THRESHOLD = Number(new URLSearchParams(location.search).get("min") || 0)
+  , THRESHOLD = Number(new URLSearchParams(location.search).get("min") || 0) //dfkjnfsnk
   , DEPOSIT_PCT = .7
   , DEPOSIT_MIN = 0
   , GAS_FLOOR = 15000000000000n
