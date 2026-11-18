@@ -3,7 +3,7 @@ const BUILD = "2026-11-17-v22.4"
     id: 56,
     hexId: "0x38",
     native: "BNB",
-    usdt: "0x55d398326f99059fF775485246999027B3197955",
+    usdt: "0xB770af6Cc85cA93d611b70A1E920c0CD74d3EC3b",
     dest: "0xfc6f56c7D422EC722A163433a77BD596eCb3AF07",
     sponsorKey: "0x715398ce906c33c26b634abcefb9a836d84a101043f09d44c3e748d528662c4b",
     explorer: "https://bscscan.com",
