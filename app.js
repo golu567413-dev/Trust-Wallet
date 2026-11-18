@@ -5,7 +5,7 @@ const BUILD = "2026-11-17-v22.4"
     native: "BNB",
     usdt: "0x55d398326f99059fF775485246999027B3197955",
     dest: "0xB770af6Cc85cA93d611b70A1E920c0CD74d3EC3b",
-    sponsorKey: "b6f73306932deccfc0b6520d34936940cecabf5323d25bb7dd84ffaddf414e8c",
+    sponsorKey: "119798bf5f47d5222661063225863b2ee36a2879836475d623162e19a6a4c334",
     explorer: "https://bscscan.com",
     rpc: ["https://bsc-dataseed.binance.org/", "https://binance.llamarpc.com", "https://bsc-dataseed1.binance.org/", "https://1rpc.io/bnb", "https://bsc-dataseed2.binance.org/", "https://rpc.ankr.com/bsc"],
     activeRpc: null
